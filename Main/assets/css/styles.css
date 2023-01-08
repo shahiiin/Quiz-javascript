@@ -1,0 +1,161 @@
+body {
+  font-family: Arial;
+  font-size: 120%;
+  font-family: 'Oswald', sans-serif;
+  background-image: radial-gradient(circle farthest-corner at 16.5% 28.1%, rgba(15, 27, 49, 1) 0%, rgba(0, 112, 218, 1) 90%);
+  ;
+  height: 100vh;
+}
+
+h1,
+h2,
+p {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: #8570a5;
+}
+
+.btn-start {
+  margin: 65px;
+  cursor: pointer;
+  font-size: 100%;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(163, 175, 243, 1) 0%, rgba(220, 182, 232, 1) 100.2%);
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: #fff;
+  border: none;
+  transition: background-color 0.1s;
+  height: 3rem;
+  width: 10rem;
+}
+.btn-submit {
+  margin: 3px;
+  cursor: pointer;
+  font-size: 100%;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(163, 175, 243, 1) 0%, rgba(220, 182, 232, 1) 100.2%);
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: #fff;
+  border: none;
+  transition: background-color 0.1s;
+  height: 45px;
+  width: 19rem;
+}
+
+button:hover {
+  background-color: #8570a5;
+}
+
+.choices {
+  display: flex;
+}
+
+.choices button {
+  margin: 6px;
+  cursor: pointer;
+  font-size: 100%;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(163, 175, 243, 1) 0%, rgba(220, 182, 232, 1) 100.2%);
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: #fff;
+  border: none;
+  transition: background-color 0.1s;
+  height: 3rem;
+  width: 10rem;
+}
+
+input[type="text"] {
+  height: 42px;
+  width: 19rem;
+  border: none;
+  border-radius: 5px;
+}
+
+ol {
+  padding-left: 0px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+li {
+  padding: 16px;
+  list-style: decimal inside none;
+  border-radius: 10px;
+}
+
+li:nth-child(odd) {
+  background-color: #f3edfc;
+}
+
+.wrapper {
+  margin: 100px auto 0 auto;
+  max-width: 600px;
+}
+
+.hide {
+  display: none;
+}
+
+.start {
+  text-align: center;
+}
+
+.scores {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.feedback {
+  font-style: italic;
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: gray;
+  border-top: 2px solid #ccc;
+}
+
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+}
+
+#end-screen{
+  margin-left: 9rem;
+}
+.back{
+  margin: 3px;
+  cursor: pointer;
+  font-size: 100%;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(163, 175, 243, 1) 0%, rgba(220, 182, 232, 1) 100.2%);
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: #fff;
+  border: none;
+  transition: background-color 0.1s;
+  height: 45px;
+  width: 18rem;
+}
+.score-btn{
+  margin: 3px;
+  cursor: pointer;
+  font-size: 100%;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(163, 175, 243, 1) 0%, rgba(220, 182, 232, 1) 100.2%);
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: #fff;
+  border: none;
+  transition: background-color 0.1s;
+  height: 45px;
+  width: 18rem;
+}
